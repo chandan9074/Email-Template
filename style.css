@@ -1,8 +1,31 @@
+body {
+  position: relative;
+}
+.header-bg {
+  width: 100%;
+  height: 35rem;
+  position: absolute;
+  background-color: lightsteelblue;
+  opacity: 0.6;
+  top: 0;
+}
+.main-page {
+  z-index: 2;
+  position: absolute;
+  left: 10%;
+}
+header {
+  margin-top: 5rem;
+}
 .email-bg {
   width: 100%;
 }
+main {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
 .card {
   padding: 2rem 3rem;
+  border: none;
 }
 .card p {
   font-size: 1.5rem;
@@ -16,14 +39,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0;
 }
 .register-btn button {
   font-size: 1.5rem;
   outline: none;
+  margin: 2rem 0 4rem 0;
   border: none;
   padding: 0.5rem 1.5rem;
   color: aliceblue;
   background-image: linear-gradient(tomato, salmon);
   border-radius: 0.5rem;
+}
+.register-btn button:hover {
+  box-shadow: 0 0 0.5rem gray;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+  background-color: rgb(247, 230, 233);
+}
+footer img {
+  width: 20%;
+}
+footer section {
+  margin: 3rem 0;
+}
+footer section .fab {
+  font-size: 2.5rem;
+  margin: 0 1.5rem;
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+}
+footer section .fab:hover {
+  color: black;
 }
