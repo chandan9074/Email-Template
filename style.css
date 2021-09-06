@@ -1,0 +1,29 @@
+.email-bg {
+  width: 100%;
+}
+.card {
+  padding: 2rem 3rem;
+}
+.card p {
+  font-size: 1.5rem;
+  box-shadow: 0 0 0.2rem gray;
+  border-radius: 0.5rem;
+  padding: 3rem;
+  text-align: justify;
+  background-color: rgb(228, 240, 228);
+}
+.register-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.register-btn button {
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  color: aliceblue;
+  background-image: linear-gradient(tomato, salmon);
+  border-radius: 0.5rem;
+}
