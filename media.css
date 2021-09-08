@@ -10,4 +10,37 @@
     opacity: 0.6;
     top: 0;
   }
+  header {
+    margin-top: 3rem;
+  }
+  .header-bg {
+    height: 22rem;
+  }
+  .card p {
+    font-size: 1.1rem;
+    box-shadow: 0 0 0.2rem gray;
+    border-radius: 0.5rem;
+    padding: 1.7rem;
+    text-align: justify;
+    background-color: rgb(228, 240, 228);
+  }
+  .register-btn button {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 4rem 0;
+  }
+  footer {
+    padding-top: 3rem;
+  }
+  footer img {
+    width: 50%;
+  }
+  footer section {
+    margin: 2rem 0;
+  }
+  footer section .fab {
+    font-size: 1.8rem;
+    margin: 0 1rem;
+    color: rgb(63, 63, 63);
+    cursor: pointer;
+  }
 }
